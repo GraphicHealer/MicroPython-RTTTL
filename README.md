@@ -10,8 +10,8 @@ song = 'Super Mario - Main Theme:d=4,o=5,b=125:a,8f.,16c,16d,16f,16p,f,16d,16c,1
 
 rtttl.play(song)
 ```
-The `song.py` file is a simple interface and collection of RTTTL songs in one place. You may use it if you wish, but it is not neccissary.
-Commands for the `song.py`:
- - **ls()** *List all songs in the SONGS list*
- - **play("Song Name")** *Play song from SONGS list*
- - **playALL()** *What do you think it does?*
+The `songs.py` file is a simple interface and collection of RTTTL songs in one place. You may use it if you wish, but it is not neccissary.
+Commands for the `songs.py`:
+ - **songs.ls()** *List all songs in the SONGS list*
+ - **songs.play("Song Name")** *Play song from SONGS list*
+ - **songs.playALL()** *What do you think it does?*
